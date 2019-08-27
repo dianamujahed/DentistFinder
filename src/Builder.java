@@ -9,7 +9,7 @@ interface Builder{
     public void setEmailAddress(String emailAddress);
     public void setWebsite(String website);
     public void setPhoneNumber(String phoneNumber);
-    public void setLicienceContryName(String licienceContryName);
+    public void setLicenseCountryName(String licenseCountryName);
     public void setLicenceNumber(String licenceNumber);
     public void setYearOfPractice(String yearOfPractice);
     public void setGender(String gender);
