@@ -4,6 +4,9 @@ so first we create an interface called builder, and the builder specifies method
 for the dentist class parts.
  */
 interface Builder{
+    public void setEducation(Education education);
+    public void setAddress(Address address);
+    public void setSpecialization(Specialization specialization);
     public void setFirstName(String firstName);
     public void setLastName(String lastName);
     public void setEmailAddress(String emailAddress);

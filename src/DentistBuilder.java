@@ -10,6 +10,15 @@ public class DentistBuilder implements Builder {
     {
         this.dentist=new Dentist();
     }
+    public void setEducation(Education education){
+        dentist.setEducation(education);
+    }
+    public void setAddress(Address address){
+        dentist.setAddress(address);
+    }
+    public void setSpecialization(Specialization specialization){
+        dentist.setSpecialization(specialization);
+    }
     public void setFirstName(String firstName){
         dentist.setFirstName(firstName);
     }
