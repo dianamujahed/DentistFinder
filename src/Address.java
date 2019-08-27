@@ -1,3 +1,7 @@
+
+/*
+This class contain the basic information about  address for the person.
+ */
 public class Address {
 
     private String Country;
