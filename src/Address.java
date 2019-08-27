@@ -7,16 +7,14 @@ public class Address {
     private String Country;
     private String State;
     private String City;
-    private String Street;
     private int PostalCode;
     /*
     A constructor for address class with parameters.
      */
-    public Address(String country, String state, String city, String street, int postalCode) {
+    public Address(String country, String state, String city, int postalCode) {
         this.Country = country;
         this.State = state;
         this.City = city;
-        this.Street = street;
         this.PostalCode = postalCode;
     }
     /*
@@ -38,9 +36,6 @@ public class Address {
         State = state;
     }
 
-    public void setStreet(String street) {
-        Street = street;
-    }
     /*
     getter functions for address attributes.
      */
@@ -60,7 +55,4 @@ public class Address {
         return State;
     }
 
-    public String get_street() {
-        return Street;
-    }
 }
