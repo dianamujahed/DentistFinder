@@ -7,14 +7,13 @@ public class Specialization {
     /*
     a constructor for specialization class.
      */
-    public Specialization(String areaOfSpecialization,int startYear)
-    {
-        this.AreaOfSpecialization=areaOfSpecialization;
-        this.StratYear=startYear;
+    public Specialization(String areaOfSpecialization, int startYear) {
+        this.AreaOfSpecialization = areaOfSpecialization;
+        this.StratYear = startYear;
     }
-/*
-a setter and getter functions for specialization class
- */
+    /*
+    a setter and getter functions for specialization class
+     */
     public void setAreaOfSpecialization(String areaOfSpecialization) {
         AreaOfSpecialization = areaOfSpecialization;
     }
