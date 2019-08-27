@@ -35,7 +35,7 @@ public class DentistBuilder implements Builder {
     public void setLicenseCountryName(String licenseCountryName) {
         dentist.setLicenseCountryName(licenseCountryName);
     }
-        public void setLicenceNumber(String licenceNumber) {
+    public void setLicenceNumber(String licenceNumber) {
         dentist.setLicenseNumber(licenceNumber);
     }
     public void setYearOfPractice(String yearsInPractice) {
