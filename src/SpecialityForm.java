@@ -3,11 +3,21 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SpecialityForm {
+    private JPanel panel1;
     private JCheckBox isSpecialistCheckBox;
     private JTextField AreaOfSpecialization;
     private JTextField StartYear;
     private JButton addButton;
+    private static JFrame Frame;
 
+    public void  showSpecialityFrame(){
+        Frame = new JFrame("SpecialityForm");
+        Frame.setContentPane(new SpecialityForm().panel1);
+        Frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        Frame.setSize(500, 500);
+        Frame.setVisible(true);
+        Frame.setLocationRelativeTo(null);
+    }
     public SpecialityForm() {
         isSpecialistCheckBox.addActionListener(new ActionListener() {
             @Override

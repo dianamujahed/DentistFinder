@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class PortalForm {
     private JPanel panel1;
@@ -19,7 +21,7 @@ public class PortalForm {
     private JTextField city;
     private JTextField state;
     private JTextField postalCode;
-    private JButton addButton;
+    private JButton nextButton;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("PortalForm");
@@ -28,6 +30,15 @@ public class PortalForm {
         frame.pack();
         frame.setVisible(true);
 
+    }
+    public PortalForm()
+    {
+        nextButton.addActionListener(new ActionListener() {@Override
+        public void actionPerformed(ActionEvent e) {
+            SpecialityForm frame = new SpecialityForm();
+            frame.showSpecialityFrame();
+        }
+        });
     }
 
     public JPanel getPanel1() {
@@ -103,6 +114,6 @@ public class PortalForm {
     }
 
     public JButton getAddButton() {
-        return addButton;
+        return nextButton;
     }
 }

@@ -9,7 +9,6 @@ public class Director {
     public void constructGeneralDentist(Builder builder)
     {
         builder.setEmailAddress(portalForm.getEmail().getText());
-        System.out.print(portalForm.getEmail().getText());
         builder.setFirstName(portalForm.getFirstName().getText());
         builder.setLastName(portalForm.getLastName().getText());
         builder.setGender(portalForm.getGender().getText());
