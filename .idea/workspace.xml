@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ad8b1d4-a0f1-4a48-9fc3-821129dc51f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DentistBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,26 +45,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PortalForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SpecialityForm.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DentistFinder.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -121,18 +108,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Builder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="6" selection-start-column="4" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DentistBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+              <folding>
+                <element signature="e#111#112#0" expanded="true" />
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#359#360#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#790#791#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#1001#1002#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ReviewForm.form">
-          <provider selected="true" editor-type-id="ui-designer" />
+        <entry file="file://$PROJECT_DIR$/src/Dentist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -162,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/Specialization.java" />
         <option value="$PROJECT_DIR$/src/Address.java" />
         <option value="$PROJECT_DIR$/src/Builder.java" />
+        <option value="$PROJECT_DIR$/src/DentistBuilder.java" />
       </list>
     </option>
   </component>
@@ -296,14 +319,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566933257917</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update builder interface documentation.">
+      <created>1566933373199</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1566933373199</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -318,7 +348,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
@@ -367,7 +397,8 @@
     <MESSAGE value="specialization class is ready." />
     <MESSAGE value="update documantation for address class" />
     <MESSAGE value="Builder interface is ready." />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder interface is ready." />
+    <MESSAGE value="update builder interface documentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="update builder interface documentation." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ReviewForm.java">
@@ -472,8 +503,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Builder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="6" selection-start-column="4" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widget.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Widget.form">
+      <provider selected="true" editor-type-id="ui-designer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Dentist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DentistBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
