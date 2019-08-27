@@ -22,41 +22,41 @@ public class Address {
     /*
     Setter functions for address attributes.
      */
-    public void set_city(String city) {
+    public void setCity(String city) {
         City = city;
     }
 
-    public void set_country(String country) {
+    public void setCountry(String country) {
         Country = country;
     }
 
-    public void set_postalCode(int postalCode) {
+    public void setPostalCode(int postalCode) {
         PostalCode = postalCode;
     }
 
-    public void set_state(String state) {
+    public void setState(String state) {
         State = state;
     }
 
-    public void set_street(String street) {
+    public void setStreet(String street) {
         Street = street;
     }
     /*
     getter functions for address attributes.
      */
-    public int get_postalCode() {
+    public int getPostalCode() {
         return PostalCode;
     }
 
-    public String get_city() {
+    public String getCity() {
         return City;
     }
 
-    public String getcountry() {
+    public String getCountry() {
         return Country;
     }
 
-    public String get_state() {
+    public String getState() {
         return State;
     }
 
